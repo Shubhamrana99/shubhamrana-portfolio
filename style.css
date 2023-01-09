@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#3b82f6;
+    --dark-grey:#64748b;
+    --off-white:#f1f5f9;
+
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* @container */
+.container{
+    padding: 1rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* @links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+    
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+   
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: solid 1px var(--primary-color) ;
+    
+}
+
+/* @lists */
+.non-bullet-list{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* @navigation-bar */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .nav-links{
+    color: white;
+    text-decoration: none;
+  
+}
+.navigation .nav-pills{
+    text-align:right
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* @heading */
+.hero{
+    padding: 2rem;
+}
+
+.hero-image{
+    margin: auto;
+    width: 450px;
+    display: block;
+}
+
+.hero-heading{
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+.hero .hero-heading .heading-text{
+    color: var(--primary-color);
+}
+
+/* sections */
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+.section h1{
+    
+    text-align: center;
+}
+
+.section.ow{
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1.5rem ;
+}
+.footer .link{
+    color: white;
+}
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
